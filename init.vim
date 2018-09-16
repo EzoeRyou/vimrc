@@ -44,7 +44,7 @@ command! -range -nargs=1 Entities call HtmlEntities(<line1>, <line2>, <args>)
 noremap <silent> \H :Entities 0<CR>
 noremap <silent> \h :Entities 1<CR>
 
-command! Copyarticle execute "55,$-7y+"
+command! Copyarticle execute "55,$-9y+"
 command! Copytitle execute "52y+"
 command! Replaceurl execute "51s%url%" . @+ . "%"
 
